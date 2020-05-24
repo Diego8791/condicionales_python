@@ -140,7 +140,9 @@ def ej3():
     #       --> En caso negativo imprima en pantalla "Resp=4"
 
     if numero_1 > 5:
-        if (numero_2 % 2) == 0:
+        # Inove: (numero_2 % 2) == 0 se utiliza para verificar si un número es par
+        # ¿Cómo verificaríamos si un número es positivo?
+        if (numero_2 % 2) == 0:  
             print("Resp=1")
         else:
             print("Resp=2")
